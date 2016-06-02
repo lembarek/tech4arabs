@@ -53,7 +53,7 @@ var acp_css_files = [
 
 
 gulp.task('site_css', function(){
-    gulp.src(css_files)
+    gulp.src(site_css_files)
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
     .pipe(concat('app.css'))
     .pipe(gulp.dest(public_css_dir));

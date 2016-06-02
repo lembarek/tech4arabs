@@ -4,19 +4,24 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url" : "/opt/lampp/htdocs/packages/lembarek/core"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "Lembarek\\Core\\": "dev-master",
-        "Lembarek\\Auth\\": "dev-master",
-        "Lembarek\\Role\\": "dev-master",
-        "Lembarek\\ShareFiles\\": "dev-master",
-        "Lembarek\\Mailer\\": "dev-master",
-        "Lembarek\\Profile\\": "dev-master",
-        "Lembarek\\Admin\\": "dev-master",
-        "Lembarek\\Package\\": "dev-master",
-        "Lembarek\\Blog\\": "dev-master"
-
+        "lembarek/core": "dev-master",
+        "lembarek/auth": "dev-master",
+        "lembarek/role": "dev-master",
+        "lembarek/shareFiles": "dev-master",
+        "lembarek/mailer": "dev-master",
+        "lembarek/profile": "dev-master",
+        "lembarek/admin": "dev-master",
+        "lembarek/package": "dev-master",
+        "lembarek/blog": "dev-master"
     },
     "require-dev": {
         "codeception/codeception": "^2.1",

@@ -163,7 +163,6 @@ return [
         Lembarek\Role\Providers\RoleServiceProvider::class,
         Lembarek\ShareFiles\Providers\ShareFilesServiceProvider::class,
         Lembarek\Mailer\Providers\MailerServiceProvider::class,
-        Lembarek\Package\Providers\PackageServiceProvider::class,
         Lembarek\Profile\Providers\ProfileServiceProvider::class,
         Lembarek\Admin\Providers\AdminServiceProvider::class,
         Lembarek\Blog\Providers\BlogServiceProvider::class,
