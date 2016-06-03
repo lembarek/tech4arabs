@@ -125,7 +125,7 @@ $factory->define(Lembarek\Profile\Models\Profile::class, function ($faker) {
 });
 
 
-$factory->define(Lembarek\Blog\Models\Page::class, function ($faker) {
+$factory->define(Lembarek\Blog\Models\Blog::class, function ($faker) {
     $title = $faker->text(30);
     return [
     'title' => $title,

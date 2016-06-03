@@ -22,7 +22,7 @@ class RoleTableSeeder extends Seeder
             foreach($roles as $role => $permissions){
                 $r  = Role::create(['name' => $role]);
                 foreach($permissions as $permission){
-                    $p = Permission::create(['name' => $permission]);
+                    $p = Permission::findOrNew(['name' => $permission]);
                     $r->assignPermission($p);
                 }
             }
