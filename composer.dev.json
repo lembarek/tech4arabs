@@ -39,7 +39,7 @@
             "Lembarek\\Blog\\": "/opt/lampp/htdocs/packages/lembarek/blog/src"
         },
         "files":[
-            "/opt/lampp/htdocs/packages/lembarek/core/src/helpers.php"
+            "lembarek/core/src/helpers.php"
         ]
     },
     "autoload-dev": {
